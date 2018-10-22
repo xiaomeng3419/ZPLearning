@@ -7,6 +7,9 @@ import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.concurrent.*;
 
+/***
+ * zhangpan
+ */
 public class TimeServer {
     private BlockingQueue<SocketChannel> idleQueue =new LinkedBlockingQueue<SocketChannel>();
     private  BlockingQueue<Future<SocketChannel>> workingQueue=new LinkedBlockingQueue<Future<SocketChannel>>();
