@@ -1,6 +1,9 @@
 package com.example.zpnetty.common;
 
 
+import sun.misc.Cleaner;
+import sun.nio.ch.DirectBuffer;
+
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.channels.ServerSocketChannel;
@@ -8,9 +11,10 @@ import java.nio.channels.SocketChannel;
 import java.util.concurrent.*;
 
 /***
- * zhangpan
+ * zhangpa
  */
 public class TimeServer {
+//    Cleaner cleaner = Cleaner.create(this,new Dea )
     private BlockingQueue<SocketChannel> idleQueue =new LinkedBlockingQueue<SocketChannel>();
     private  BlockingQueue<Future<SocketChannel>> workingQueue=new LinkedBlockingQueue<Future<SocketChannel>>();
     private  ExecutorService executor = Executors.newSingleThreadExecutor();

@@ -14,10 +14,48 @@
         <version>5.0.0.Alpha2</version>
     </dependency>
     <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>servlet-api</artifactId>
+        <version>2.5</version>
+        <scope>provided</scope>
+    </dependency>
+
+    <dependency>
         <groupId>log4j</groupId>
         <artifactId>log4j</artifactId>
         <version>1.2.17</version>
     </dependency>
+    <dependency>
+        <groupId>com.eclipsesource.minimal-json</groupId>
+        <artifactId>minimal-json</artifactId>
+        <version>0.9.5</version>
+    </dependency>
 </dependencies>
+    <plugins>
+        <plugin>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>2.3.2</version>    <!-- 不指定时默认采用最新插件版本 -->
+            <configuration>
+                <!-- 根据实际情况设置 JDK -->
+                <source>1.7</source>    <!-- 源代码使用的开发版本 -->
+                <target>1.7</target>    <!-- 需要生成的目标class文件的编译版本 -->
+                <encoding>UTF-8</encoding>
+            </configuration>
+        </plugin>
+        <!-- Tomcat 插件配置 -->
+        <plugin>
+            <groupId>org.apache.tomcat.maven</groupId>
+            <artifactId>tomcat7-maven-plugin</artifactId>
+            <version>2.2</version>
+            <configuration>
+                <!-- 使用内置的模拟Tomcat服务器 -->
+                <path>/SpringMVC_170422_RESTful_CRUD</path>
+                <uriEncoding>UTF-8</uriEncoding>
+                <port>9527</port>
+                <mode>context</mode>
+                <contextReloadable>true</contextReloadable>
+            </configuration>
+        </plugin>
+    </plugins>
 
 </project>
