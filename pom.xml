@@ -30,32 +30,91 @@
         <artifactId>minimal-json</artifactId>
         <version>0.9.5</version>
     </dependency>
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>1.7.21</version>
+    </dependency>
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-log4j12</artifactId>
+        <version>1.7.21</version>
+    </dependency>
+    <dependency>
+        <groupId>com.github.noraui</groupId>
+        <artifactId>ojdbc7</artifactId>
+        <version>12.1.0.2</version>
+    </dependency>
+    <dependency>
+        <groupId>org.jdom</groupId>
+        <artifactId>jdom</artifactId>
+        <version>1.1.3</version>
+    </dependency>
+    <dependency>
+        <groupId>dom4j</groupId>
+        <artifactId>dom4j</artifactId>
+        <version>1.6.1</version>
+    </dependency>
+    <!--配置lombok-->
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.16.22</version>
+    </dependency>
+
+
+    <dependency>
+        <groupId>cglib</groupId>
+        <artifactId>cglib</artifactId>
+        <version>3.2.4</version>
+    </dependency>
+    <dependency>
+        <groupId>org.quartz-scheduler</groupId>
+        <artifactId>quartz</artifactId>
+        <version>2.2.1</version>
+    </dependency>
+    <dependency>
+        <groupId>org.quartz-scheduler</groupId>
+        <artifactId>quartz-jobs</artifactId>
+        <version>2.2.1</version>
+    </dependency>
 </dependencies>
-    <plugins>
-        <plugin>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>2.3.2</version>    <!-- 不指定时默认采用最新插件版本 -->
-            <configuration>
-                <!-- 根据实际情况设置 JDK -->
-                <source>1.7</source>    <!-- 源代码使用的开发版本 -->
-                <target>1.7</target>    <!-- 需要生成的目标class文件的编译版本 -->
-                <encoding>UTF-8</encoding>
-            </configuration>
-        </plugin>
-        <!-- Tomcat 插件配置 -->
-        <plugin>
-            <groupId>org.apache.tomcat.maven</groupId>
-            <artifactId>tomcat7-maven-plugin</artifactId>
-            <version>2.2</version>
-            <configuration>
-                <!-- 使用内置的模拟Tomcat服务器 -->
-                <path>/SpringMVC_170422_RESTful_CRUD</path>
-                <uriEncoding>UTF-8</uriEncoding>
-                <port>9527</port>
-                <mode>context</mode>
-                <contextReloadable>true</contextReloadable>
-            </configuration>
-        </plugin>
-    </plugins>
+    <build>
+        <plugins>
+           <!-- <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>    &lt;!&ndash; 不指定时默认采用最新插件版本 &ndash;&gt;
+                <configuration>
+                    &lt;!&ndash; 根据实际情况设置 JDK &ndash;&gt;
+                    <source>1.7</source>    &lt;!&ndash; 源代码使用的开发版本 &ndash;&gt;
+                    <target>1.7</target>    &lt;!&ndash; 需要生成的目标class文件的编译版本 &ndash;&gt;
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>-->
+            <!-- Tomcat 插件配置 -->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.tomcat.maven</groupId>-->
+                <!--<artifactId>tomcat7-maven-plugin</artifactId>-->
+                <!--<version>2.2</version>-->
+                <!--<configuration>-->
+                    <!--&lt;!&ndash; 使用内置的模拟Tomcat服务器 &ndash;&gt;-->
+                    <!--<path>/SpringMVC_170422_RESTful_CRUD</path>-->
+                    <!--<uriEncoding>UTF-8</uriEncoding>-->
+                    <!--<port>9527</port>-->
+                    <!--<mode>context</mode>-->
+                    <!--<contextReloadable>true</contextReloadable>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <target>1.8</target>
+                    <source>1.8</source>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

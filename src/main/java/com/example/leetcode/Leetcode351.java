@@ -28,9 +28,9 @@ class Solution {
         int sum =1;
         int row = envelopes[0][0];
         for (int i = 1;i<envelopes.length;i++){
-            if (envelopes[i][1]>row)
+//            if (envelopes[i][1]>row)
         }
-
+        return 0;
     }
 }
 

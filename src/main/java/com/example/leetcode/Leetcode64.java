@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
  * @date 18-10-24 下午8:39
  * @package com.example.leetcode
  */
-class Solution {
+class Solution64 {
     public int minPathSum(int[][] grid) {
         if(grid.length == 0){
             return 0;
@@ -73,7 +73,7 @@ public class Leetcode64 {
 
     public static void main(String[] args) throws IOException {
         int[][] grid = {{1,3,1},{1,5,1},  {4,2,1}};
-        int ret = new Solution().minPathSum(grid);
+        int ret = new Solution64().minPathSum(grid);
 //
             String out = String.valueOf(ret);
 
