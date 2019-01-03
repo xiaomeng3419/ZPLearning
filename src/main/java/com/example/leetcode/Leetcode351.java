@@ -5,7 +5,7 @@ package com.example.leetcode;
  * @date 18-10-24 下午9:20
  * @package com.example.leetcode
  */
-class Solution {
+class Solution351 {
     public int maxEnvelopes(int[][] envelopes) {
         if (envelopes.length == 0){
             return 0;
@@ -37,7 +37,7 @@ class Solution {
 public class Leetcode351 {
     public static void main(String[] args) {
         int[][] grid = {{1,3,1},{1,5,1},  {4,2,1}};
-        int ret = new Solution().maxEnvelopes(grid);
+        int ret = new Solution351().maxEnvelopes(grid);
         //
         String out = String.valueOf(ret);
 
