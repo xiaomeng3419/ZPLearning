@@ -19,7 +19,6 @@ public class FutureStudy {
         Future<?> taskFuture = executorService.submit(new MyFutureTask());
         System.out.println("任务全部提交成功，开始get 获取返回结果....... ");
         Thread.sleep(3000);
-
         System.out.println(runFuture.get());
         System.out.println(callFuture.get());
         System.out.println(taskFuture.get());
