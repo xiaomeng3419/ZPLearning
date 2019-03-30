@@ -15,7 +15,7 @@ public class JVMDemo1 {
 
 //    Reference
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//20m
         List<JVMObject > lsit = new ArrayList<>();
         while (true){
             lsit.add(new JVMObject());

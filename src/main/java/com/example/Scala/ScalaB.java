@@ -8,4 +8,7 @@ package com.example.Scala;
  *
  */
 public class ScalaB {
+    public static void main(String[] args) {
+            Object object = new Object();
+    }
 }
