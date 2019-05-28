@@ -1,5 +1,10 @@
 package com.example.collection;
 
+import com.example.collection.reflect.String;
+
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Created by zhangpan on 2019/3/28.
  */
@@ -51,5 +56,7 @@ public class CDemo5 {
         for (int t:a ) {
             System.out.println(t);
         }
+
+        Set<Integer> set = new HashSet<>();
     }
 }

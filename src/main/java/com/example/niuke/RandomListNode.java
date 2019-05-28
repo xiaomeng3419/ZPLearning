@@ -5,6 +5,7 @@ package com.example.niuke;
  */
 public class RandomListNode {
     int label;
+
     RandomListNode next = null;
     RandomListNode random = null;
 

@@ -1,5 +1,7 @@
 package com.example.collection;
 
+import com.example.collection.reflect.String;
+
 /**
  * Created by zhangpan on 2019/3/17.
  */
@@ -11,7 +13,7 @@ public class CDemo3 {
         Integer c = 234;
         Integer d = 234;
         System.out.println(c==d);
-        String sq = "exeample";
+        java.lang.String sq = "exeample";
         sq.concat("Test");
         System.out.println(sq);
     }

@@ -25,7 +25,7 @@ public class SimpleSelectSort {
         }
     }
     public static void printResult(int[] a, int n){
-        System.out.print("×îÖÕÅÅĞò½á¹û£º");
+        System.out.print("æœ€ç»ˆæ’åºç»“æœï¼š");
         for(int j=0;j<n;j++){
             System.out.print(" "+a[j]);
         }
