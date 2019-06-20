@@ -1,0 +1,7 @@
+#! /bin/bash
+url=http://www.baidu.com
+echo $url
+name="zhang pan"
+echo $name
+var='yzj'
+echo ${var}

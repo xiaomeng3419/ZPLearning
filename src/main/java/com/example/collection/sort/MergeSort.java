@@ -16,14 +16,14 @@ public class MergeSort {
         sortMergeRecursionHelper(nums,0,nums.length-1);
     }
 
-    // ¹é²¢ÅÅĞò£¬·Çµİ¹éÊµÏÖ(µü´ú)
+    // å½’å¹¶æ’åºï¼Œéé€’å½’å®ç°(è¿­ä»£)
     public void sortMergeIteration(int[] nums) {
-        int len = 1;  // ³õÊ¼ÅÅĞòÊı×éµÄ³¤¶È
+        int len = 1;  // åˆå§‹æ’åºæ•°ç»„çš„é•¿åº¦
         while (len < nums.length) {
             for (int i = 0; i < nums.length; i += len * 2) {
                 sortMergeIterationHelper(nums, i, len);
             }
-            len *= 2;  // Ã¿´Î½«ÅÅĞòÊı×éµÄ³¤¶È*2
+            len *= 2;  // æ¯æ¬¡å°†æ’åºæ•°ç»„çš„é•¿åº¦*2
         }
     }
 
@@ -54,11 +54,11 @@ public class MergeSort {
         }
     }
     /**
-     * ¸¨Öúº¯Êı
+     * è¾…åŠ©å‡½æ•°
      *
-     * @param nums  Ô­Êı×é
-     * @param start ´ÓstartÎ»ÖÃ¿ªÊ¼
-     * @param len   ±¾´ÎºÏ²¢µÄÊı×é³¤¶È
+     * @param nums  åŸæ•°ç»„
+     * @param start ä»startä½ç½®å¼€å§‹
+     * @param len   æœ¬æ¬¡åˆå¹¶çš„æ•°ç»„é•¿åº¦
      */
     public void sortMergeIterationHelper(int[] nums, int start, int len) {
         int[] tem = new int[len * 2];
@@ -68,7 +68,7 @@ public class MergeSort {
         while (i < start + len && (j < start + len + len && j < nums.length)) {
             tem[k++] = nums[i] < nums[j] ? nums[i++] : nums[j++];
         }
-        while (i < start + len && i < nums.length) {  // ×¢Òâ£ºÕâÀïiÒ²¿ÉÄÜ³¬³ö³¤¶È
+        while (i < start + len && i < nums.length) {  // æ³¨æ„ï¼šè¿™é‡Œiä¹Ÿå¯èƒ½è¶…å‡ºé•¿åº¦
             tem[k++] = nums[i++];
         }
         while (j < start + len + len && j < nums.length) {

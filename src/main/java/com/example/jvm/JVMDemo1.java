@@ -3,6 +3,8 @@ package com.example.jvm;
 import java.lang.ref.Reference;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Queue;
+import java.util.concurrent.ArrayBlockingQueue;
 
 /**
  * Created by zhangpan on 2018/12/9.
@@ -14,11 +16,14 @@ import java.util.List;
 public class JVMDemo1 {
 
 //    Reference
+    static ArrayBlockingQueue queue = new ArrayBlockingQueue(23);
+
 
     public static void main(String[] args) {//20m
         List<JVMObject > lsit = new ArrayList<>();
         while (true){
             lsit.add(new JVMObject());
+            queue.remove(3);
         }
     }
 }

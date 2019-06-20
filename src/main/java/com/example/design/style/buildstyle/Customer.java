@@ -11,7 +11,7 @@ public class Customer {
         customer.setLanguage("Java");;
         customer.setDatabase("Mysql");
         customer.setServer("Tomcat");
-        System.out.println("¿Í»§1ÒªµÄ»·¾³£º" + customer.getEnvironment());
+        System.out.println("å®¢æˆ·1è¦çš„ç¯å¢ƒï¼š" + customer.getEnvironment());
 
 
 
@@ -20,14 +20,14 @@ public class Customer {
         customer2.setLanguage("Java");;
         customer2.setDatabase("Mysql");
         customer2.setServer("Tomcat");
-        System.out.println("¿Í»§2ÒªµÄ»·¾³£º" + customer2.getEnvironment());
+        System.out.println("å®¢æˆ·2è¦çš„ç¯å¢ƒï¼š" + customer2.getEnvironment());
 
 
 
         Director director = new Director();
         ServerProduct classicCentOSEnvironment1 = director.createClassicCentOSEnvironment();
-        System.out.println("´´½¨µÚÒ»¸ö»·¾³£º" + classicCentOSEnvironment1.getEnvironment());
+        System.out.println("åˆ›å»ºç¬¬ä¸€ä¸ªç¯å¢ƒï¼š" + classicCentOSEnvironment1.getEnvironment());
         ServerProduct classicCentOSEnvironment2 = director.createClassicUbuntuEnvironment();
-        System.out.println("´´½¨µÚ¶ş¸ö»·¾³£º" + classicCentOSEnvironment2.getEnvironment());
+        System.out.println("åˆ›å»ºç¬¬äºŒä¸ªç¯å¢ƒï¼š" + classicCentOSEnvironment2.getEnvironment());
     }
 }

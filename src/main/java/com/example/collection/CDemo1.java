@@ -1,11 +1,12 @@
 package com.example.collection;
 
+import com.example.collection.reflect.String;
+
 import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Created by zhangpan on 2019/1/15.
- * ÔÚ¼¯ºÏÓÃµü´úÆ÷±éÀúÔªËØµÄÍ¬Ê±¡£ÓÃ±¾Éíµü´úÆ÷µÄremove·½·¨É¾³ıÔªËØ²»»á³öÏÖjucÒì³£¡£
+ * åœ¨é›†åˆç”¨è¿­ä»£å™¨éå†å…ƒç´ çš„åŒæ—¶ã€‚ç”¨æœ¬èº«è¿­ä»£å™¨çš„removeæ–¹æ³•åˆ é™¤å…ƒç´ ä¸ä¼šå‡ºç°jucå¼‚å¸¸ã€‚
  */
 public class CDemo1 {
     public static void main(String[] args) {

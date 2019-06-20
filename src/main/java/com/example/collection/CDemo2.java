@@ -1,14 +1,16 @@
 package com.example.collection;
 
+import com.example.collection.reflect.String;
+
 /**
  * Created by zhangpan on 2019/3/15.
  */
 public class CDemo2 {
     public static void main(String[] args) {
         int[] arr = {1,5,6,8,7,2,3,4,9};
-        //µ÷ÓÃ¶ÑÅÅĞòÊı×é
+        //è°ƒç”¨å †æ’åºæ•°ç»„
         heapsort(arr);
-        //Êä³öÅÅĞòºóµÄÊı×é
+        //è¾“å‡ºæ’åºåçš„æ•°ç»„
         for(int i=0;i<arr.length;i++)
         {
             System.out.print(arr[i]+"  ");
@@ -42,7 +44,7 @@ public class CDemo2 {
             if(temp>=arr[i]){
                 break;
             }
-            //¸¸Ç×½ÚµãĞ¡ÓÚº¢×Ó½Úµã£¬ÕâÀï¾ÍÊÇ°Ñ×î´óµÄÍÆÉÏÈ¥
+            //çˆ¶äº²èŠ‚ç‚¹å°äºå­©å­èŠ‚ç‚¹ï¼Œè¿™é‡Œå°±æ˜¯æŠŠæœ€å¤§çš„æ¨ä¸Šå»
             arr[parent] = arr[i];
             parent = i;
         }

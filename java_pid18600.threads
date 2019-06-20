@@ -1,0 +1,95 @@
+Thread 0xff825020
+  at java.net.DualStackPlainSocketImpl.accept0(I[Ljava/net/InetSocketAddress;)I (Native Method)
+  at java.net.DualStackPlainSocketImpl.socketAccept(Ljava/net/SocketImpl;)V (Unknown Source)
+  at java.net.AbstractPlainSocketImpl.accept(Ljava/net/SocketImpl;)V (Unknown Source)
+  at java.net.PlainSocketImpl.accept(Ljava/net/SocketImpl;)V (Unknown Source)
+  at java.net.ServerSocket.implAccept(Ljava/net/Socket;)V (Unknown Source)
+  at java.net.ServerSocket.accept()Ljava/net/Socket; (Unknown Source)
+  at com.intellij.rt.execution.application.AppMain$1.run()V (AppMain.java:79)
+  at java.lang.Thread.run()V (Unknown Source)
+
+  locals:
+    objectId=0xff825218, line=1
+    objectId=0xff825270, line=1
+    objectId=0xff825200, line=1
+    objectId=0xff825218, line=2
+    objectId=0xff825270, line=2
+    objectId=0xff8252c8, line=3
+    objectId=0xff825340, line=3
+    objectId=0xff825270, line=3
+    objectId=0xff8253b8, line=4
+    objectId=0xff8253d0, line=4
+    objectId=0xff825340, line=4
+    objectId=0xff8253b8, line=5
+    objectId=0xff8253d0, line=5
+    objectId=0xfec22a10, line=6
+    objectId=0xff8253b8, line=6
+    objectId=0xff825020, line=7
+
+Thread 0xff81d658
+
+  locals:
+
+Thread 0xff834f40
+
+  locals:
+
+Thread 0xff82d0c8
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (Unknown Source)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (Unknown Source)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Unknown Source)
+
+  locals:
+    objectId=0xff81cbf0, line=1
+    objectId=0xff81cc10, line=1
+    objectId=0xff81cbf0, line=2
+    objectId=0xff82d0c8, line=3
+    objectId=0xff82d248, line=3
+
+Thread 0xff81d838
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Unknown Source)
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Unknown Source)
+
+  locals:
+    objectId=0xff81d9b0, line=1
+    objectId=0xff81d838, line=2
+    objectId=0xff81d9b0, line=2
+
+Thread 0xff8352e0
+  at java.lang.OutOfMemoryError.<init>()V (Unknown Source)
+  at java.util.Arrays.copyOf([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object; (Unknown Source)
+  at java.util.Arrays.copyOf([Ljava/lang/Object;I)[Ljava/lang/Object; (Unknown Source)
+  at java.util.ArrayList.grow(I)V (Unknown Source)
+  at java.util.ArrayList.ensureExplicitCapacity(I)V (Unknown Source)
+  at java.util.ArrayList.ensureCapacityInternal(I)V (Unknown Source)
+  at java.util.ArrayList.add(Ljava/lang/Object;)Z (Unknown Source)
+  at com.example.jvm.JVMDemo1.main([Ljava/lang/String;)V (JVMDemo1.java:19)
+  at sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Native Method)
+  at sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Unknown Source)
+  at sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Unknown Source)
+  at java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Unknown Source)
+  at com.intellij.rt.execution.application.AppMain.main([Ljava/lang/String;)V (AppMain.java:147)
+
+  locals:
+    objectId=0xff1853b0, line=1
+    objectId=0xff8348c0, line=1
+    objectId=0xff1853b0, line=2
+    objectId=0xff835150, line=3
+    objectId=0xff835150, line=6
+    objectId=0xffc65450, line=6
+    objectId=0xff835150, line=7
+    objectId=0xff8351d8, line=9
+    objectId=0xff835110, line=9
+    objectId=0xff8351f0, line=10
+    objectId=0xff835110, line=10
+    objectId=0xff8350b8, line=11
+    objectId=0xff835110, line=11
+    objectId=0xff8351f0, line=11
+    objectId=0xff835200, line=12
+    objectId=0xff835218, line=12
+    objectId=0xff835140, line=12
+    objectId=0xff82d358, line=12
+    objectId=0xff8350b8, line=12
+
