@@ -4,24 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/example/Thread/runable/FutureStudy.java" description="    static class MyCallTask implements Callable&lt;St..." line="52" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c0bc76f-f5c7-4e67-a4dd-4121cbd7c227" name="Default" comment="20193月底提交">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/tencent/ZJTDD3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/tencent/ZJTDCode2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/tencent/ZJTDCode1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/Thread/lock/semaphore/Demoq.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/Thread/lock/semaphore/Demoq.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/Thread/CustomThreadPoolExecutor$CustomRejectExecutionHandler.class" afterPath="$PROJECT_DIR$/target/classes/com/example/Thread/CustomThreadPoolExecutor$CustomRejectExecutionHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/Thread/CustomThreadPoolExecutor$CustomThreadFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/example/Thread/CustomThreadPoolExecutor$CustomThreadFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/Thread/CustomThreadPoolExecutor$MyRunableFuture.class" afterPath="$PROJECT_DIR$/target/classes/com/example/Thread/CustomThreadPoolExecutor$MyRunableFuture.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/Thread/CustomThreadPoolExecutor.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/Thread/CustomThreadPoolExecutor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/design/style/buildstyle/Customer.class" afterPath="$PROJECT_DIR$/target/classes/com/example/design/style/buildstyle/Customer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/design/style/buildstyle/Director.class" afterPath="$PROJECT_DIR$/target/classes/com/example/design/style/buildstyle/Director.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/collection/CDemo6.class" afterPath="$PROJECT_DIR$/target/classes/com/example/collection/CDemo6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/Thread/CustomThreadPoolExecutor$MyCallTask.class" afterPath="$PROJECT_DIR$/target/classes/com/example/Thread/CustomThreadPoolExecutor$MyCallTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/collection/CDemo6.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/collection/CDemo6.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/Thread/CustomThreadPoolExecutor.class" afterPath="$PROJECT_DIR$/target/classes/com/example/Thread/CustomThreadPoolExecutor.class" />
-    </list>
+    <list default="true" id="9c0bc76f-f5c7-4e67-a4dd-4121cbd7c227" name="Default" comment="20193月底提交" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -614,7 +597,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -781,10 +764,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZpBgo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZpBgo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="relatework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1500,7 +1497,7 @@
       <workItem from="1560003696756" duration="1208000" />
       <workItem from="1560064705150" duration="5569000" />
       <workItem from="1560135282308" duration="1944000" />
-      <workItem from="1561455524180" duration="2000" />
+      <workItem from="1561455524180" duration="141000" />
     </task>
     <task id="LOCAL-00001" summary="zhangpan">
       <created>1546417884132</created>
@@ -1534,7 +1531,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="655983000" />
+    <option name="totallyTimeSpent" value="656122000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1560,13 +1557,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.4914163" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08629989" sideWeight="0.41899142" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56202805" sideWeight="0.4914163" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.56202805" sideWeight="0.4914163" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30139935" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30139935" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.376211" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.376211" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
