@@ -27,7 +27,6 @@ public class CDemo6 {
 //        CDemo6 cDemo6 = new CDemo6(12);
 //        System.out.println(cDemo6.num);
         System.out.println("中文乱码");
-    ThreadLocal
 //        HashMap
     }
 }

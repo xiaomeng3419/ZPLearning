@@ -1,13 +1,16 @@
 package com.example.Thread.lock.semaphore;
 
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
+import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by zhangpan on 2019/1/4.
- * ²âÊÔ¹ØÓÚ semaphoreµÄacquireºÍreleaseÖ®¼älockÔÊĞíµÄ¸öÊı
- * ½á¹û£º semaphoreĞí¿É¸öÊı¼´Ê¹ÉèÖÃµÃºÜ´ó£¬Èç¹ûÆäÖĞÓĞlock£¬lockºÍunlock²¿·ÖÖ»ÔÊĞíÓĞÒ»¸öÏß³ÌÔÚÆäÖĞ¡£
- * ±¾´ÎÊµÑé£ºlock.semphore°üÖĞµÄDemoq,run ,ThreadP,ThreadCÕâ4¸öjavaÎÄ¼ş
+ * æµ‹è¯•å…³äº semaphoreçš„acquireå’Œreleaseä¹‹é—´lockå…è®¸çš„ä¸ªæ•°
+ * ç»“æœï¼š semaphoreè®¸å¯ä¸ªæ•°å³ä½¿è®¾ç½®å¾—å¾ˆå¤§ï¼Œå¦‚æœå…¶ä¸­æœ‰lockï¼Œlockå’Œunlockéƒ¨åˆ†åªå…è®¸æœ‰ä¸€ä¸ªçº¿ç¨‹åœ¨å…¶ä¸­ã€‚
+ * æœ¬æ¬¡å®éªŒï¼šlock.semphoreåŒ…ä¸­çš„Demoq,run ,ThreadP,ThreadCè¿™4ä¸ªjavaæ–‡ä»¶
  *
  */
 public class Demoq {
@@ -34,7 +37,9 @@ public class Demoq {
             lock.unlock();
         }
 
-
     }
+    LinkedBlockingDeque
+
+    public void
 
 }

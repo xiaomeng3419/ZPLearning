@@ -37,11 +37,7 @@ public class CustomThreadPoolExecutor {
      * 						          任务会交给RejectedExecutionHandler来处理
      */
     public void init(){
-        poolExecutor = Executors.newSingleThreadExecutor();
-        poolExecutor = Executors.newFixedThreadPool(2);
-        poolExecutor = Executors.newCachedThreadPool(2);
-        poolExecutor = Executors.newScheduledThreadPool(2);
-        poolExecutor
+
         poolExecutor = new ThreadPoolExecutor(10,
                 30,
                 30,
@@ -49,7 +45,6 @@ public class CustomThreadPoolExecutor {
                 new ArrayBlockingQueue<Runnable>(10),
                 new CustomThreadFactory(),
                 new CustomRejectExecutionHandler());
-        ex
     }
 
 
