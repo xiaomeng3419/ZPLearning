@@ -38,8 +38,8 @@ public class Demoq {
         }
 
     }
-    LinkedBlockingDeque
-
-    public void
+//    LinkedBlockingDeque
+//
+//    public void
 
 }

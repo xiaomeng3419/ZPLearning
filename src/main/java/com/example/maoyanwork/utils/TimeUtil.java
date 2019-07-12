@@ -303,4 +303,62 @@ public class TimeUtil   {
         return sdf.format(milliSecond);
     }
 
+
+    /*******************************************************************************/
+    /**
+     * 获取当前日期前几天日期。
+     * @param todayDay 今天日期
+     * @param i   前i天
+     * @param timeUnit  时间单位
+     * @param format
+     * @return
+     */
+    public static String getHistoryDate(String todayDay ,int i,String format,TimeUnitEnum timeUnit) {
+        DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern(format);
+        DateTime dateTime = DateTime.parse(todayDay, dateTimeFormatter);
+        DateTime newDateTime = new DateTime();
+        switch (timeUnit){
+            case DAY:
+                newDateTime = dateTime.minusDays(i);
+                break;
+            case HOUR:
+                newDateTime = dateTime.minusHours(i);
+                break;
+            case MINUTE:
+                newDateTime = dateTime.minusMinutes(i);
+                break;
+            default:
+                newDateTime = dateTime.minusHours(i);
+        }
+
+        return newDateTime.toString(format);
+    }
+
+    /**
+     * 云工厂时间单位
+     */
+    public enum  TimeUnitEnum{
+        DAY(1),HOUR(2),MINUTE(3);
+        private Integer value;
+        TimeUnitEnum(Integer value){
+            this.value = value;
+        }
+        public Integer getValue(){
+            return this.value;
+        }
+
+        /**
+         * 根据value获取，如若不在默认为HOUR
+         * @param value
+         * @return
+         */
+        public static TimeUnitEnum getTimeUnitEnumByValue(Integer value) {
+            for (TimeUnitEnum varEnum : TimeUnitEnum.values()) {
+                if (value == varEnum.getValue()) {
+                    return varEnum;
+                }
+            }
+            return HOUR;
+        }
+    }
 }

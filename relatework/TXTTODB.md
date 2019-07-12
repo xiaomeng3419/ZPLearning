@@ -3,11 +3,11 @@
 awk  '{printf("insert into taobao_account_mail(account, password, mail_status) values( '"\'%s\'"', '"\'%s\'"',0);\n",$1,$2)}'  163account300s.txt >3.txt
 ```
 
-╡И©╢хуж╬нд╪Ч╣д╪╪гиё╛р╡©иртсцlessцЭаНё╛
-р╡©иртсцgrepцЭаН║ё
-╠Йв╪unix/linuxоб╣дgrepм╗╧Щртоб╡нйЩ©ьжфиообнд
-grep -C 5 foo file отй╬fileнд╪Чжпф╔еДfooвж╢╝дгппрт╪╟иооб5пп
-grep -B 5 foo file отй╬foo╪╟г╟5пп
-grep -A 5 foo file отй╬foo╪╟╨С5пп
-╡И©╢grep╟Ф╠╬╣д╥╫╥╗йг
+Ф÷╔Г°▀Ф≈╔Е©≈Ф√┤Д╩╤Г └Ф┼─Е╥╖О╪▄Д╧÷Е▐╞Д╩╔Г■╗lessЕ▒╫Д╩╓О╪▄
+Д╧÷Е▐╞Д╩╔Г■╗grepЕ▒╫Д╩╓Ц─┌
+Ф═┤Е┤├unix/linuxД╦▀Г └grepИ─ Х©┤Д╩╔Д╦▀Е▐┌Ф∙╟Ф▌╖Е┬╤Д╦┼Д╦▀Ф√┤
+grep -C 5 foo file Ф≤╬Г╓╨fileФ√┤Д╩╤Д╦╜Е▄╧И┘█fooЕ╜≈Д╦╡И┌ёХ║▄Д╩╔Е▐┼Д╦┼Д╦▀5Х║▄
+grep -B 5 foo file Ф≤╬Г╓╨fooЕ▐┼Е┴█5Х║▄
+grep -A 5 foo file Ф≤╬Г╓╨fooЕ▐┼Е░▌5Х║▄
+Ф÷╔Г°▀grepГ┴┬Ф°╛Г └Ф√╧ФЁ∙Ф≤╞
 grep -V
