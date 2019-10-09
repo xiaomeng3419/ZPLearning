@@ -7,7 +7,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * Created by zhangpan on 2018/12/26.
- * ÒâÒå¾ÍÊÇµ½ÁËÕâ¸öµãÔÙÖ´ĞĞ
+ * æ„ä¹‰å°±æ˜¯åˆ°äº†è¿™ä¸ªç‚¹å†æ‰§è¡Œ
  */
 public class Demo9 {
     public static void main(String[] args) {
@@ -38,10 +38,10 @@ public class Demo9 {
         public void run() {
             try {
                 cyclicBarrier.await();
-                System.out.println("No."+ seq +"³Ë¿ÍÕıÔÚ¼ì²éÖĞ");
+                System.out.println("No."+ seq +"ä¹˜å®¢æ­£åœ¨æ£€æŸ¥ä¸­");
                 if(seq %2 == 0){
                     Thread.sleep(10000);
-                    System.out.println("No."+ seq +"³Ë¿ÍÉí·İ¿ÉÒÉ£¡");
+                    System.out.println("No."+ seq +"ä¹˜å®¢èº«ä»½å¯ç–‘ï¼");
                 }
             }catch (InterruptedException e){
                 e.printStackTrace();
@@ -49,9 +49,9 @@ public class Demo9 {
                 e.printStackTrace();
             }finally {
 //                semaphore.release();
-                System.out.println("No."+ seq +"³Ë¿ÍÍê³É¼ì²é£¡");
-                System.out.println("Í¨¹ıbarrier.getNumberWaiting()»ñÈ¡ÕıÔÚµÈ´ıµÄÏß³ÌÊı£º"+cyclicBarrier.getNumberWaiting());
-                System.out.println("Í¨¹ıbarrier.getNumberWaiting()»ñÈ¡ÕıÔÚµÈ´ıµÄÏß³ÌÊıgetParties£º"+cyclicBarrier.getParties());
+                System.out.println("No."+ seq +"ä¹˜å®¢å®Œæˆæ£€æŸ¥ï¼");
+                System.out.println("é€šè¿‡barrier.getNumberWaiting()è·å–æ­£åœ¨ç­‰å¾…çš„çº¿ç¨‹æ•°ï¼š"+cyclicBarrier.getNumberWaiting());
+                System.out.println("é€šè¿‡barrier.getNumberWaiting()è·å–æ­£åœ¨ç­‰å¾…çš„çº¿ç¨‹æ•°getPartiesï¼š"+cyclicBarrier.getParties());
             }
         }
     }

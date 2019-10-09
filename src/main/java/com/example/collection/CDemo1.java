@@ -3,6 +3,10 @@ package com.example.collection;
 import com.example.collection.reflect.String;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.Executors;
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * Created by zhangpan on 2019/1/15.
@@ -15,7 +19,6 @@ public class CDemo1 {
         Integer s = 12;
         assert s >= 127;
 //        Map<String,Object> map = new HashMap<String,Object>();
-
       ArrayList<Integer> list = new ArrayList<>();
       list.add(12);
       list.add(123);

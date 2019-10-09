@@ -2,8 +2,8 @@ package com.example.collection.sort;
 
 /**
  * Created by zhangpan on 2019/2/20.
- * 直接插入排序
- * 它是把已有的数据排序
+ * 鐩存帴鎻掑叆鎺掑簭
+ * 瀹冩槸鎶婂凡鏈夌殑鏁版嵁鎺掑簭
  * */
 public class InsertSort {
     public static void insertSort(int[] a,int length){

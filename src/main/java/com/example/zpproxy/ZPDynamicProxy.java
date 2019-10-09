@@ -5,6 +5,9 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.Random;
 
+/**
+ * jdK动态代理
+ */
 public class ZPDynamicProxy implements InvocationHandler{
 	
 	Object targetObject;

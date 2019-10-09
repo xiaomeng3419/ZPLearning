@@ -19,7 +19,7 @@ public class String2Json {
     }
 
     public static void main(String[] args) {
-        System.out.println(addItem("{\"code\":\"TR02004\",\"msg\":\"必要文件未上传\",\"tradeNo\":\"TXkmWYbTPxcg9LwZaH20190711T20190711093920217151276\",\"bizContent\":\"\"}"));
+//        System.out.println(addItem("{\"code\":\"TR02004\",\"msg\":\"必要文件未上传\",\"tradeNo\":\"TXkmWYbTPxcg9LwZaH20190711T20190711093920217151276\",\"bizContent\":\"\"}"));
         String response = "123";
         try{
             response = "3333";

@@ -1,9 +1,7 @@
 package com.example.collection;
 
 import java.lang.*;
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.Vector;
+import java.util.*;
 
 /**
  * Created by zhangpan on 2019/4/1.
@@ -27,6 +25,22 @@ public class CDemo6 {
 //        CDemo6 cDemo6 = new CDemo6(12);
 //        System.out.println(cDemo6.num);
         System.out.println("中文乱码");
+        Set<String> ss = new HashSet<>();
+        ss.add("11d");
+        ss.add("11c");
+        ss.add("11d");
+        ss.add("11a");
+        ss.add("11b");
+        Iterator<String> iterator = ss.iterator();
+        while (iterator.hasNext()){
+            String te = iterator.next();
+            if(te.equals("11a")){
+                iterator.remove();
+                continue;
+            }
+            System.out.println(te);
+        }
+        System.out.println(ss.size());
 //        HashMap
     }
 }

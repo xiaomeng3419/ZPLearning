@@ -2,7 +2,7 @@ package com.example.collection.sort;
 
 /**
  * Created by zhangpan on 2019/2/22.
- * Ê±¼ä¸´ÔÓ¶ÈO(n*n),¿Õ¼ä¸´ÔÓ¶ÈO£¨1£©
+ * æ—¶é—´å¤æ‚åº¦O(n*n),ç©ºé—´å¤æ‚åº¦Oï¼ˆ1ï¼‰
  */
 public class BubbleSort  {
     public static void bubbleSort(int[] a){

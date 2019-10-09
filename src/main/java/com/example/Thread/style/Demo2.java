@@ -2,7 +2,7 @@ package com.example.Thread.style;
 
 /**
  * Created by zhangpan on 2018/12/9.
- * ×÷ÎªÏß³ÌÈÎÎñ´æÔÚ
+ * ï¿½ï¿½Îªï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  */
 public class Demo2 implements Runnable {
     @Override
@@ -15,5 +15,6 @@ public class Demo2 implements Runnable {
     public static void main(String[] args) {
         Thread thread = new Thread(new Demo2());
         thread.start();
+//        thread.threadLocals.
     }
 }

@@ -7,6 +7,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Date;
+import java.util.*;
 
 /**
  * Location:com.example.maoyanwork.utils
@@ -16,9 +17,11 @@ import java.util.Date;
  * Description:
  */
 public class FileUtils {
-    public static String getFileContent(String filePath) {// ÐÂ½¨»ò´ò¿ªÈÕÖ¾ÎÄ¼þ
+    public static String getFileContent(String filePath) {// ï¿½Â½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½Ä¼ï¿½
         File file = new File(filePath);
         StringBuilder sb = new StringBuilder();
+        StringBuffer ss = new StringBuffer();
+        Map<String,Object> map = new HashMap<>();
         FileReader fileReader = null;
         BufferedReader bufferedReader = null;
         try {
@@ -49,12 +52,12 @@ public class FileUtils {
         return StringUtils.EMPTY;
     }
 
-    public static void writeLogtoFile(String path, String text) {// ÐÂ½¨»ò´ò¿ªÈÕÖ¾ÎÄ¼þ
+    public static void writeLogtoFile(String path, String text) {// ï¿½Â½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½Ä¼ï¿½
         Date nowtime = new Date();
         String needWriteMessage = nowtime.toGMTString() + " : " + text;
         File file = new File(path);
         try {
-            FileWriter filerWriter = new FileWriter(file, true);//ºóÃæÕâ¸ö²ÎÊý´ú±íÊÇ²»ÊÇÒª½ÓÉÏÎÄ¼þÖÐÔ­À´µÄÊý¾Ý£¬²»½øÐÐ¸²¸Ç
+            FileWriter filerWriter = new FileWriter(file, true);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç²ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¸ï¿½ï¿½ï¿½
             BufferedWriter bufWriter = new BufferedWriter(filerWriter);
             bufWriter.write(needWriteMessage);
             bufWriter.newLine();

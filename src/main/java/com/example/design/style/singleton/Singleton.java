@@ -1,5 +1,7 @@
 package com.example.design.style.singleton;
 
+import java.util.Objects;
+
 /**
  * Created by zhangpan on 2019/3/13.
  */
