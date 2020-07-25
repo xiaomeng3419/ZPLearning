@@ -22,10 +22,10 @@ public class Domain implements Comparable<Domain>
             return -1;
     }
     {
-        System.out.println("³õÊ¼»¯¡£¡£¡£¡£¡£¡£¡£¡£¡£");
+        System.out.println("ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
     }
     static  {
-        System.out.println("¾²Ì¬±äÁ¿³õÊ¼»¯¡£¡£¡£¡£");
+        System.out.println("ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
     }
 
     public String getStr()
@@ -34,7 +34,7 @@ public class Domain implements Comparable<Domain>
     }
 
     /**
-     * ¿ÉÒÔÓëÁ½¸ö²»Ò»ÑùµÄ¶ÔÏó±È½Ï£¬×Ô¼ºÓë×Ô¼º¿ÉÒÔÏà±È½Ï¡£
+     * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½È½Ï£ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È½Ï¡ï¿½
      * @param args
      */
     public static void main(String[] args) {
@@ -47,4 +47,5 @@ public class Domain implements Comparable<Domain>
 //        System.out.println(d1.compareTo(d3));
 //        System.out.println(d1.compareTo(d4));
     }
+
 }

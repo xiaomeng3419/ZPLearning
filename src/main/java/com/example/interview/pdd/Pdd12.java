@@ -1,7 +1,4 @@
-package com.example.leetcode.pdd;
-
-import io.netty.channel.sctp.SctpNotificationHandler;
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
+package com.example.interview.pdd;
 
 import java.util.Scanner;
 

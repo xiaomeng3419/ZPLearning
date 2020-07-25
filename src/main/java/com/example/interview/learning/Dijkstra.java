@@ -10,6 +10,7 @@ import java.util.Queue;
  * @Author: zhangpan
  * @Creation Date : 2019??09??28?? 19:59
  * @ModificationHistory:https://blog.csdn.net/carson0408/article/details/78634650
+ * 两个点：1看是否访问过，第二个距离的控制和比较 。，任何算法需要看公式，需要把公式捋出来
  */
 public class Dijkstra {
 

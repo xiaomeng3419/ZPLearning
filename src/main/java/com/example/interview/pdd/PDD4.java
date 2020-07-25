@@ -1,9 +1,6 @@
-package com.example.leetcode.pdd;
-
-import com.example.collection.reflect.String;
+package com.example.interview.pdd;
 
 import java.util.Scanner;
-import java.util.Vector;
 
 /**
  * Created by zhangpan on 2019/4/3.

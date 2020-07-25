@@ -1,8 +1,7 @@
-package com.example.leetcode.pdd;
+package com.example.interview.pdd;
 
 import com.example.collection.reflect.String;
 
-import java.util.Date;
 import java.util.Scanner;
 
 /**

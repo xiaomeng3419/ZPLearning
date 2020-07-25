@@ -11,4 +11,5 @@ public interface InterfaceTest {
     public static void interfaceTe1(){
         System.out.println("sd");
     }
+
 }

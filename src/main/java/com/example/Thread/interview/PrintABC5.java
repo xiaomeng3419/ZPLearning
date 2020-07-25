@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class PrintABC5 {
 
-
+    AtomicInteger s = new AtomicInteger();
 
     public static void main(String[] args) {
         ZPABC5 zpabc5 = new ZPABC5();

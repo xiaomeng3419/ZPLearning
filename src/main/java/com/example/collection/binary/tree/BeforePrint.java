@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Stack;
 
 /**
- * ¶þ²æÊ÷µÄÏÈÐò±éÀúµÄ·ÇµÝ¹éËã·¨
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä·ÇµÝ¹ï¿½ï¿½ã·¨
  *
  * Created by zhangpan on 2019/3/28.
  */
@@ -53,8 +53,8 @@ public class BeforePrint {
         node4.rchild = node7;
         node3.rchild = node5;
         node5.lchild = node6;
-        preOrder(node1);
+//        preOrder(node1);
         MidPrint.midOrder(node1);
-      AfterPrint.afterOrder(node1);
+//      AfterPrint.afterOrder(node1);
     }
 }
